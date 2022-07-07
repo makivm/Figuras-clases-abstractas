@@ -24,6 +24,7 @@ public abstract class Figuras {
 	public void setY(int y) {
 		this.y = y;
 	}
+	
 	@Override
 	public String toString() {
 		return "Figuras [x=" + x + ", y=" + y + "]";
